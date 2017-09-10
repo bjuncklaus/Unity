@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
  <Reference Include="Facebook.Unity.Settings">
  <HintPath>/Users/bjuncklaus/workspace/Unity/example/Move-A-Ball/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
