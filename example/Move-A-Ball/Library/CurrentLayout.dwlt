@@ -189,7 +189,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 115
+  controlID: 116
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -366,7 +366,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: ee240000
     m_LastClickedID: 9454
-    m_ExpandedIDs: 00000000342600003826000040260000
+    m_ExpandedIDs: 0000000034260000382600003a26000040260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -394,7 +394,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000034260000382600003a26000040260000
+    m_ExpandedIDs: 0000000034260000382600003a26000040260000642c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: PlayerController
@@ -552,14 +552,14 @@ MonoBehaviour:
     width: 839
     height: 365
   m_SceneLighting: 1
-  lastFramingTime: 3349.6804649829865
+  lastFramingTime: 4034.843032002449
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.65402, y: 1.8362043, z: 4.4715567}
+    m_Target: {x: 419.5, y: 163.5, z: 0}
     speed: 2
-    m_Value: {x: 2.65402, y: 1.8362043, z: 4.4715567}
+    m_Value: {x: 419.5, y: 163.5, z: 0}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -582,17 +582,17 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.029576154, y: 0.9675667, z: -0.21109983, w: -0.13556132}
+    m_Target: {x: -0.07074485, y: -0.09114182, z: -0.006492397, w: 0.9933022}
     speed: 2
-    m_Value: {x: -0.029576153, y: 0.9675667, z: -0.21109983, w: -0.13556132}
+    m_Value: {x: -0.07074474, y: -0.09114168, z: -0.0064923866, w: 0.9933007}
   m_Size:
-    m_Target: 7.657886
+    m_Target: 233.34525
     speed: 2
-    m_Value: 7.657886
+    m_Value: 233.34525
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
+    m_Value: 1
   m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
@@ -629,7 +629,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 18fcffff00000000
+    m_ExpandedIDs: c65afcff7c5bfcff805cfcff8085fdff18fcffff0000000054260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
