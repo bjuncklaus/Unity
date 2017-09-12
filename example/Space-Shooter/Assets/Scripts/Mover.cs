@@ -13,9 +13,10 @@ public class Mover : MonoBehaviour {
 		rb.velocity = GetComponent<Transform> ().forward * speed ;
 	}
 
-	void FixedUpdate () {
+	void FixedUpdate() {
 		if (rb.position.z >= 45) {
 			// Destroy the bolt
+
 		}
 	}
 }
