@@ -1,3 +1,2 @@
-example/Move-A-Ball/Library/ShaderCache/
-example/Move-A-Ball/Temp/
-example/Move-A-Ball/Library/
+**/**/Library/
+**/**/Temp/
