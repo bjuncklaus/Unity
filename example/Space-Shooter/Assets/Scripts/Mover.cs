@@ -14,9 +14,6 @@ public class Mover : MonoBehaviour {
 	}
 
 	void FixedUpdate() {
-		if (rb.position.z >= 45) {
-			// Destroy the bolt
-
-		}
+		
 	}
 }
