@@ -26,8 +26,6 @@ public class PlayerController : MonoBehaviour {
 	private float nextFire;
 
 	void Start() {
-		speed = 15;
-		tilt = 3;
 		rb = GetComponent<Rigidbody>();
 		boundary = new Boundary (-6, 6, -2, 8);
 	}
