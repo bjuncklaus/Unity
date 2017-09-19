@@ -11,7 +11,7 @@ public class GameController : MonoBehaviour {
 	public float startWait;
 
 	IEnumerator SpawnWaves() {
-		yield return new WaitForSeconds (startWait);
+		yield return new WaitForSeconds (startWait );
 		for (int i = 0; i < hazardCount; i++) {
 			Vector3 spawnPosition = new Vector3 (Random.Range (-6, 6), spawnValues.y, spawnValues.z);
 			Quaternion spawnRotation = Quaternion.identity;
