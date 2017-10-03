@@ -9,6 +9,8 @@ public class GameController : MonoBehaviour {
 	public int hazardCount;
 	public float secondsToWait;
 	public float startWait;
+	public GUIText scoreText;
+	private int score;
 
 	IEnumerator SpawnWaves() {
 		yield return new WaitForSeconds (startWait );
@@ -21,13 +23,24 @@ public class GameController : MonoBehaviour {
 		}
 	}
 
+	void UpdateScore() {
+		scoreText.text = "Score: " + score;
+	}
+
+	public void AddScoreValue(int newScore) {
+		score += newScore;
+		UpdateScore();
+	}
+
 	// Use this for initialization
 	void Start () {
+		score = 0;
+		UpdateScore();
 		StartCoroutine(SpawnWaves ());
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
-		
+
 	}
 }
