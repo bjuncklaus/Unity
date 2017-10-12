@@ -95,19 +95,19 @@ NavMeshSettings:
   m_BuildSettings:
     serializedVersion: 2
     agentTypeID: 0
-    agentRadius: 0.2
-    agentHeight: 2
+    agentRadius: 0.4
+    agentHeight: 0.5
     agentSlope: 52
     agentClimb: 0.4
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
     minRegionArea: 2
     manualCellSize: 0
-    cellSize: 0.06666667
+    cellSize: 0.13333334
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
-  m_NavMeshData: {fileID: 23800000, guid: f522fe4640fba884e84153da2cbee1c7, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 6ee076cef32a14202af1e3cf856f2f21, type: 2}
 --- !u!1001 &11802477
 Prefab:
   m_ObjectHideFlags: 0
@@ -2624,6 +2624,46 @@ Prefab:
       propertyPath: m_RootOrder
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 1026876474332180, guid: 43cbaea1607bc9248aedcee481f27809, type: 2}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1644192666798850, guid: 43cbaea1607bc9248aedcee481f27809, type: 2}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784235824943230, guid: 43cbaea1607bc9248aedcee481f27809, type: 2}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1360106421326508, guid: 43cbaea1607bc9248aedcee481f27809, type: 2}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1647343641083116, guid: 43cbaea1607bc9248aedcee481f27809, type: 2}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396015823849822, guid: 43cbaea1607bc9248aedcee481f27809, type: 2}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1739376618448180, guid: 43cbaea1607bc9248aedcee481f27809, type: 2}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1247300038635790, guid: 43cbaea1607bc9248aedcee481f27809, type: 2}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876962556812368, guid: 43cbaea1607bc9248aedcee481f27809, type: 2}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1644117106233140, guid: 43cbaea1607bc9248aedcee481f27809, type: 2}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 43cbaea1607bc9248aedcee481f27809, type: 2}
   m_IsPrefabParent: 0
@@ -2733,7 +2773,9 @@ GameObject:
   - component: {fileID: 1283684374}
   - component: {fileID: 1283684375}
   - component: {fileID: 1283684376}
-  m_Layer: 0
+  - component: {fileID: 1283684377}
+  - component: {fileID: 1283684378}
+  m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2803,6 +2845,32 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1283684377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1283684372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b869e0f826a244c9b7ca8cef1e1a743, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementMask:
+    serializedVersion: 2
+    m_Bits: 256
+  range: 100
+--- !u!114 &1283684378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1283684372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21facd79d58a34aad9035afc9de3300c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1300279491
 GameObject:
   m_ObjectHideFlags: 0
@@ -3979,13 +4047,13 @@ GameObject:
   - component: {fileID: 1852409681}
   - component: {fileID: 1852409680}
   - component: {fileID: 1852409678}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!23 &1852409678
 MeshRenderer:
   m_ObjectHideFlags: 0
