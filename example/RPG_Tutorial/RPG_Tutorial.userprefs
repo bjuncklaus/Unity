@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{BD4EC76D-2A26-BD20-D6D2-8C7D699C1A39}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CameraController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Controller/EnemyController.cs">
     <Files>
-      <File FileName="Assets/Scripts/CameraController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Controller/EnemyController.cs" Line="12" Column="46" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
