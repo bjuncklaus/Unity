@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio for Mac
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPG_Tutorial", "RPG_Tutorial.csproj", "{BD4EC76D-2A26-BD20-D6D2-8C7D699C1A39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPG_Tutorial.Editor", "RPG_Tutorial.Editor.csproj", "{0B43C849-624A-33D5-9A40-133E13B64C98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD4EC76D-2A26-BD20-D6D2-8C7D699C1A39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD4EC76D-2A26-BD20-D6D2-8C7D699C1A39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD4EC76D-2A26-BD20-D6D2-8C7D699C1A39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD4EC76D-2A26-BD20-D6D2-8C7D699C1A39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B43C849-624A-33D5-9A40-133E13B64C98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B43C849-624A-33D5-9A40-133E13B64C98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B43C849-624A-33D5-9A40-133E13B64C98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B43C849-624A-33D5-9A40-133E13B64C98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
