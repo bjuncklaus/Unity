@@ -25,6 +25,7 @@ public class CameraController : MonoBehaviour {
     }
 
     void LateUpdate() {
+        // TODO - change the camera control to WASD
         transform.position = target.position - offset * currentZoom;
         transform.LookAt(target.position + CameraPitch());
         transform.RotateAround(target.position, Vector3.up, currentYaw);
