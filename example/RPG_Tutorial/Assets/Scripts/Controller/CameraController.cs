@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour {
 
-    public Transform target;
+    // public Transform target;
 
     public Vector3 offset;
 
@@ -22,6 +22,33 @@ public class CameraController : MonoBehaviour {
 
         // Horizontal means "A" and "D" or the joysticks left and right
         currentYaw += Input.GetAxis("Horizontal") * yawSpeed * Time.deltaTime;
+
+        // http://answers.unity3d.com/questions/352235/moving-camera-with-wasd.html
+        //  float xAxisValue = Input.GetAxis("Horizontal");
+        //  float zAxisValue = Input.GetAxis("Vertical");
+        //  if(Camera.current != null)
+        //  {
+        //      Camera.current.transform.Translate(new Vector3(xAxisValue, 0.0f, zAxisValue));
+        //  }
+
+
+        // http://answers.unity3d.com/questions/548794/how-to-move-a-camera-only-using-the-arrow-keys.html
+        //  if(Input.GetKey(KeyCode.RightArrow))
+        //  {
+        //      transform.Translate(new Vector3(speed * Time.deltaTime,0,0));
+        //  }
+        //  if(Input.GetKey(KeyCode.LeftArrow))
+        //  {
+        //      transform.Translate(new Vector3(-speed * Time.deltaTime,0,0));
+        //  }
+        //  if(Input.GetKey(KeyCode.DownArrow))
+        //  {
+        //      transform.Translate(new Vector3(0,-speed * Time.deltaTime,0));
+        //  }
+        //  if(Input.GetKey(KeyCode.UpArrow))
+        //  {
+        //      transform.Translate(new Vector3(0,speed * Time.deltaTime,0));
+        //  }
     }
 
     void LateUpdate() {
